@@ -1,5 +1,5 @@
 export const Console = () => {
   return (
-    <div>Console</div>
+    <div className="container border">Console</div>
   )
 }

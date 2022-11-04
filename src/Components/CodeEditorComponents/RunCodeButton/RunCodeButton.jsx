@@ -6,8 +6,14 @@ export const RunCodeButton = (code) => {
     exportFile(code,'test','java')
   }
 
-
+  const compile=()=>{
+    saveCode()
+    //compilar
+    
+    //ejecutar y mostrar en pantalla
+  }
+  
   return (
-<button className="btn btn-primary">Run Code</button>
+<button className="btn btn-primary" onClick={compile}>Run Code</button>
   )
 }

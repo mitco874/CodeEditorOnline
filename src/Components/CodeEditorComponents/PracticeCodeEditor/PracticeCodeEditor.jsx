@@ -14,7 +14,7 @@ export const PracticeCodeEditor = ({ title, problemDescription }) => {
 
         </div>
 
-        <div className="col col-12 border border-primary"><Console/></div>
+        <div className="col col-12"><Console/></div>
 
       </section>
     </div>
